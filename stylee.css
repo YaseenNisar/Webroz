@@ -106,6 +106,8 @@ section {
 
 body {
     line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 ol,
@@ -135,7 +137,11 @@ a {
     text-decoration: none;
 }
 
-
+header{
+    position: absolute;
+    width: 100%;
+    padding: 15px 0;
+}
 header .topheader {
     background: #FF6200;
     max-width: 1200px;
@@ -172,7 +178,7 @@ span{
 }
 
 .navbar {
-    font-family: 'sans-serif';
+    
     font-size: 18px;
 }
 
@@ -239,7 +245,7 @@ nav .toggler {
 }
      .sec2-bottom{
             position: absolute;
-            top: 800px;
+            top: 700px;
             left:30%;
             font-size:24px;
             font-weight: 800px;
@@ -263,7 +269,7 @@ text-align: center;
 align-items: center;
 margin-left: 250px;
 }
-.btn {
+.btn1 {
             background-image: linear-gradient(to right, #556270 0%, #FF6B6B  51%, #556270  100%);
             margin: 10px;
             padding: 15px 45px;
@@ -279,7 +285,7 @@ margin-left: 250px;
             font-size: 14px;
           }
 
-          .btn:hover {
+          .btn1:hover {
             background-position: right center;
             color: #fff;
             text-decoration: none;
@@ -305,9 +311,11 @@ margin-left: 250px;
 
 .section-4{
     padding: 20px;
+    width: 100%;
 }
 .section-4 .container{
     flex-direction: column;
+width: 100%;
 }
 .sec4-A{
     padding: 15px;
@@ -352,7 +360,7 @@ margin-left: 250px;
          }
 
 .section-5 .container{
-     
+     padding: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -362,6 +370,7 @@ margin-left: 250px;
 }
 
 .clients{
+    padding: 10px;
     font-size: 26px;
     font-weight: 800;
 }
@@ -374,6 +383,7 @@ margin-left: 250px;
             text-align: center;
 }
 .support1{
+    padding: 25px;
     text-align: center;
     width: 700px;
     font-size: 18px;
@@ -386,12 +396,12 @@ margin-left: 250px;
     width: 80%;
     margin: 0 auto;
     display: flex;
-    padding: 20px;
+    padding: 30px;
     justify-content: space-around;
     align-items: center;
     
 }
-.toptxt1 {
+.toptxt1, .toptxt3 {
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 800;
@@ -524,7 +534,61 @@ h3 {
   background:#000;
 }
 
+/*---------------------*/
 
+
+.section-6 .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    transform: translate(-15%, 11%);
+    
+}
+.text-center {
+    color: white;
+    padding: 15px;
+    font-size: 24px;
+    line-height: 20px;
+}
+.section-6 .container .mail-form
+{
+    margin-left: 400px;
+    background: #4684c5;
+    padding: 25px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section-6 .container .form-group{
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 1rem;}
+
+.section-6 .container form .form-control{
+    height: 43px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+.section-6 .container .mail-form form .form-group .button{
+    font-size: 17px!important;
+    align-items: center;
+    border-radius: 20px;
+    width: 150px;
+    margin: 0 auto;
+}
+.section-6 .container form .textarea{
+    height: 100px;
+    resize: none;
+}
+.section-6 .container .mail-form h2{
+    font-size:18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+
+
+/*-------------*/
 .sec8{
 padding: 20px;
 background: #4376d1;
@@ -632,7 +696,7 @@ background: #4376d1;
         display: none;
         position: absolute;
         width: 100%;
-        top: 150px;
+        top: 40px;
         background: #4376d1;
     }
     
@@ -644,6 +708,95 @@ background: #4376d1;
         flex-direction: column;
     }
 
+.logo{
+    padding: 10px;
 }
+
+.content{
+    padding: 15px;
+    width: 100%;
+    
+}
+.content h4{
+    width: 100%;
+    padding: 15px;
+    font-size: 24px;
+    font-weight: 800px;
+    color: darkblue;
+}
+.section-2{
+    width: 100%;
+}
+.sec2-bottom{
+    position: absolute;
+    align-items: center;
+    width: 50%;
+    font-size: 16px;
+  top: 370px;
+}
+.section-3 .container{
+    padding-top:10px;
+    width: 100%;
+    flex-direction: column;
+}
+.sec3-leftside{
+text-align: center;
+align-items: center;
+margin: 20px 0;
+}
+
+.section-4 .container{
+    width: 100%;
+}
+
+.sec4-A{
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.section-5 .container{
+    width: 100%;
+}
+.sec5top{
+    flex-direction: column;
+}
+.sec5toptxt1{
+    padding: 20px;
+}
+.support1{
+    width: 100%;
+}
+.slider-wrapper{
+    width: 100%;
+}
+.sec8 .container {width: 100%;
+}
+    .sec15top {flex-direction: column;
+    }
+    .sec8 {width: 100%;}
+.sec8top .container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+    .sec8-topA, .sec8-topB{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+
+    } 
+
+    .sec8-bottom .container {
+        display: flex;
+        font-size: clamp(10px, 12px, 14px);
+    }
+
+
+
+
+}
+
+
 
 

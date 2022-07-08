@@ -4,9 +4,13 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="css/script.js">
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
@@ -20,6 +24,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
     integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
 
     <link rel="stylesheet" href="stylee.css">
 
@@ -56,7 +62,7 @@
     <div class="container">
         <div class="content">
             <h4><b>Let's get the top of the House</b></h4>
-            <a href="#" class="btn">Get Started</a>
+            <a href="#" class="btn1">Get Started</a>
             
         </div>
 
@@ -131,7 +137,7 @@
 </div>
 <div class="A-right">
     <div class="A-right-text2">
-    <a href="#" class="btn">Get Started</a>
+    <a href="#" class="btn1">Get Started</a>
 </div>
 </div>
 </div>
@@ -162,7 +168,7 @@
                         </div>
                     </div>
 
-                    <div class="sec5toptxt2">
+                    <div class="sec5toptxt1">
                         <div class="toptxt2">
                             <h1>We've facilitate</h1>
                         </div>
@@ -174,7 +180,7 @@
                         </div>
                     </div>
 
-                    <div class="sec5toptxt3">
+                    <div class="sec5toptxt1">
                         <div class="toptxt2">
                             <h1>Volunteers have contributed</h1>
                         </div>
@@ -229,6 +235,28 @@
 <!-- ----------slider close-------- -->
 
         </div>
+    </div>
+
+    <div class="section-6">
+<div class="container">
+    <!-- col-md-8 offset-md-8 mail-form -->
+ <div class="col-md-8 offset-md-8 mail-form">
+                <h2 class="text-center">Recieve the latest Updates on Jobs about Projects. Subscribe to the monthly eidtion of Software Solutions</h2>
+                <form action="mail.php" method="POST">
+                    <div class="form-group">
+                        <input class="form-control" name="name" type="text" placeholder="name">
+                    </div>
+
+                    <div class="form-group">
+                        <input class="form-control" name="email" type="email" placeholder="Email">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input class="form-control button btn-primary" type="submit" name="subscribe" value="Subscribe">
+                    </div>
+                </form>
+            </div>
+</div>
     </div>
 
 <!-------sec8----->
